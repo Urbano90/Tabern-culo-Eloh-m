@@ -1,0 +1,92 @@
+
+:root {
+    --blanco: #fff;
+    --gris: #6c6565;
+    --negro: #060608;
+    --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+}
+body {
+    width: 100vw;
+}
+.container-diezmos {
+    background-image: url(/img/diezmos2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.title {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--blanco);
+    font-size: 30px;
+    text-shadow:  1px 2px 1px var(--gris);
+
+}
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.form {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 215px;
+    background: #02020292;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.481);
+}
+.inputPrice {
+    padding: 4px;
+    border-radius: 3px;
+    background: var(--blanco);
+    color: var(--negro);
+    border: none;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.481);
+}
+.bottonCalcular {
+    cursor: pointer;
+    background: #1fd828;
+    color: var(--blanco);
+    padding: 4px;
+    border-radius: 6px;
+    margin: 0px 10px;
+}
+.bottonCalcular:hover {
+    transform: scale(1.1);
+    color: var(--gris);
+}
+.inputReset {
+    cursor: pointer;
+    background: #d81f1f;
+    color: var(--blanco);
+    padding: 4px;
+    border-radius: 6px;
+}
+.inputReset:hover {
+    transform: scale(1.1);
+    color: var(--gris);
+}
+.ResultPrice {
+    color: var(--negro);
+    background: var(--blanco);
+    height: 100px;
+    text-align: center;
+    background: var(--blanco);
+}
+.container-Subtitle {
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    color: var(--blanco);
+    border-radius: 8px;
+    width: 300px;
+}
+.container-Subtitle span {
+    font-style: oblique;
+}

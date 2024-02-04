@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/diezmos.css">
+    <title>Calculadora de diezmos</title>
+    
+    </style>
+</head>
+<body>
+<main>
+  <section class="container-diezmos">
+    <section class="container-navbar">          
+        <div class="enlaces">
+            <a href="./index.html" title="Inicio de la pàgina"> <span>Inicio</span></a>
+            <a href="./Anuncios.html" title="Anuncios"> <span>Anuncios</span></a>
+            <a href="./historia.html" title="Historia del Tabernàculo Elohìm"> <span>Historia</span></a>
+            <a href="./galería.html" title="Galerìa de fotos y videos"> <span>Galería</span></a>
+            <a href="./diezmos.html" title="Calcula tu diezmo"> <span>Diezmos</span></a>
+        </div>
+    </section>
+    <div class="menu" id="menu">
+        <div class="contenedor  contenedor-botones-menu">
+        <!-- Los dos botones deben contener los iconos de menu y cerrar menu-->
+        <button id="btn-menu-barras" class="btn-menu-barras"> <img src="https://img.icons8.com/material-outlined/24/FFFFFF/menu--v1.png" alt="menu--v1"/> </button>
+        <button id="btn-menu-cerrar"  class="btn-menu-cerrar"> <img src="https://img.icons8.com/ios/50/FFFFFF/close-window--v1.png" alt="close-window--v1"/></button>
+        </div>
+    </div>
+    <div class="diezmos">
+        <h2 class="title">Calculadora de diezmos.</h2>
+     
+        <div class="container-form">
+          <form class="form">
+              <div class="divInput">
+                  <label for="InputPrice" >Dinero Ganado</label >
+                      <input id="InputPrice" type="number" placeholder="Ganancias" class="inputPrice" title="Inserta el monto ganado">
+              </div>
+              <div >
+                  <button type="button"  onclick="onClickButtonPriceDiscount()" class="bottonCalcular" title="Pulsa para ver resultado"> Calcular diezmos</button>
+                  <input type="submit" class="inputReset" value="Borrar" title="Pulsa para resetear">
+              </div>
+              <div  class="ResultPrice">
+                  <p class="titleResult" id="ResultPrice" title="Espacio para ver el resultado"> </p>
+              </div>
+          </form>
+        </div>
+        <section class="container-Subtitle">
+            <p>Malaquias 3:10 <br> 
+              <span>
+                10. Traed todos los diezmos al alfolí y haya alimento en mi casa; y probadme ahora en esto,
+                dice Jehová de los ejércitos, si no os abriré las ventanas de los cielos,
+                 y derramaré sobre vosotros bendición hasta que sobreabunde.
+              </span>   
+                </p>
+          </section>
+    </div>
+  </section>
+  <section class="container-links">
+    <h2>Links importantes:</h2>
+    <div class="links">
+        <a href="https://branham.org/home" title="Grabaciones La Voz de Dios"><img src="./img/VGR-WHEAT.png" alt="logo-vgr"> GRABACIONES LA VOZ DE DIOS</a>
+        <a href="https://branhamtabernacle.org/es/home" title="Tabernàculo Branham"><img src="./img/tb.png" alt="img-tb"> TABERNÀCULO BRANHAM</a>
+        <a  href="https://youngfoundations.org/es/home" title="Young Foundations"><img src="./img/YF.png" alt="img-yf"> YOUNG FOUNDATIONS</a>
+        <a href="https://themessage.com/es/home" title="El Mensaje"><img src="./img/apple.png" alt="img-mensaje"> El MENSAJE</a>
+        <a href="https://youngfoundations.org/en/creations"title="creaciones"><img src="./img/creations.png" alt="img-creaciones"> CREACIONES</a>
+    </div>
+</section>
+</main>
+<footer class="footer" id="footer">
+
+</footer>
+<script src="./js/diezmos.js"> </script>
+<script src="./js/footer.js"> </script>
+</body>
+</html>

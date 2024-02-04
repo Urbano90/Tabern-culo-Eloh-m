@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+<!-- Filter: https://css-tricks.com/gooey-effect/ -->
+<svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <defs>
+        <filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />    
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+            <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+        </filter>
+    </defs>
+</svg>
+    <title>Tabernàculo Elohím</title>
+</head>
+<body>
+    <nav>
+        <section class="container-menu">
+           <div class="img-portada">
+            <section class="container-navbar">
+                <div class="enlaces">
+                    <a href="./index.html"> <span>Inicio</span></a>
+                    <a href="./Anuncios.html"> <span>Anuncios</span></a>
+                    <a href="./historia.html"> <span>Historia</span></a>
+                    <a href="./galería.html"> <span>Galería</span></a>
+                    <a href="./diezmos.html"> <span>Diezmos</span></a>
+                </div>
+            </section>
+            <div class="menu" id="menu">
+                <div class="contenedor  contenedor-botones-menu">
+                <!-- Los dos botones deben contener los iconos de menu y cerrar menu-->
+                <button id="btn-menu-barras" class="btn-menu-barras"> <img src="https://img.icons8.com/material-outlined/24/FFFFFF/menu--v1.png" alt="menu--v1"/> </button>
+                <button id="btn-menu-cerrar"  class="btn-menu-cerrar"> <img src="https://img.icons8.com/ios/50/FFFFFF/close-window--v1.png" alt="close-window--v1"/></button>
+                </div>
+            </div>
+            <img class="logo" src="./img/logo-blanco1.png" alt="img-logo">
+                    
+            </div>
+        </section>
+    </nav>
+    <main>
+        <section class="container_service">
+            <article class="service">
+                <img src="./img/play.jpg" alt="">
+                <div>
+                    <u>SERVICIO DE ADORACIÒN DOMINICAL</u>
+                    <p>En los domingos leemos la carta del profeta José Marrion Branham y escuchamos la voz autorizda.</p>
+                    <span>9:00h</span>
+                </div>
+            </article>
+            <article class="service">
+                <img src="./img/oracion.jpg" alt="">
+                <div>
+                    <u>SERVICIO DE ORACIÒN DEL MIÈRCOLES</u>
+                    <p>Los servicios de oraciòn de los mièrcoles se llevan a cabo en el Tabernáculo Elohìm en silencio.</p>
+                    <span>18:00h</span>
+            </article>
+            <article class="service">
+                <img src="./img/predicador.jpg" alt="">
+                <div>
+                    <u>SERVICIO DE ENSEÑANZA EN LOS VIERNES</u>
+                    <p>Escuchamos las enseñanzas o predicaciones del siervo de Dios William Marrion Branham.</p>
+                    <span>18:00h</span>
+            </article>
+        </section>  
+        <hr>
+        <section class="container-noticias">
+             <u> <h2> Noticias recientes </h2></u> 
+            <div class="noticias">
+                <a href="">
+                    <img src="./img/escuela.PNG" alt="">
+                    <div class="noticias-info">
+                        <h3>Entrega de certificados de participaciòn a los niños de la escuela dominical</h3>
+                        <p>Este sàbado 03 de febrero del año 2024 se ha echo entrega de certificados a los niños de la escuela dominical, tanto los mayoes de 8 años como los menores de 8 años...<button class="button1" title="Leer noticia completa ">Seguir leyendo</button></p>
+                    </div>
+                </a>
+                <a href="">
+                    <img src="./img/tarde-adora.PNG" alt="">
+                    <div class="noticias-info">
+                        <h3>Tarde de adoraciòn realizado en el Tabernàculo con la presentaciòn de nuevos cantos escritos por las </h3>
+                        <p>Se ha realizado una tarde de adoraciòn en el Tabernàculo Elohim el sàbado pasado dia 27 de enero del año 2024...<button class="button1" title="Leer noticia completa ">Seguir leyendo</button></p>
+                    </div>
+                </a>
+                
+            </div>
+        </section>
+        
+        <section class="historia">
+            <div>
+                <h4 class="title-historia">Història del Tabernàculo Elohím.</h4>  <br>
+                <div class="wrapper">
+                    <a class="button" href="#" title="Lee más sobre la historia del Tabernàculo Elohìm">Leer màs</a>
+                </div>
+                
+            </div>
+        </section>
+        <section class="container-links">
+            <h2>Links importantes:</h2>
+            <div class="links">
+                <a href="https://branham.org/home" title="Grabaciones La Voz de Dios"><img src="./img/VGR-WHEAT.png" alt="logo-vgr"> GRABACIONES LA VOZ DE DIOS</a>
+                <a href="https://branhamtabernacle.org/es/home" title="Tabernàculo Branham"><img src="./img/tb.png" alt="img-tb"> TABERNÀCULO BRANHAM</a>
+                <a  href="https://youngfoundations.org/es/home" title="Young Foundations"><img src="./img/YF.png" alt="img-yf"> YOUNG FOUNDATIONS</a>
+                <a href="https://themessage.com/es/home" title="El Mensaje"><img src="./img/apple.png" alt="img-mensaje"> El MENSAJE</a>
+                <a href="https://youngfoundations.org/en/creations"title="Creaciones"><img src="./img/creations.png" alt="img-creaciones"> CREACIONES</a>
+            </div>
+        </section>
+        <section class="localizacion">
+            <div class="text-localizacion">
+                <div class="contenido-text-localizacion">
+                    <h2>Localizaciòn</h2> 
+                    <p>Nos situamos en Malabo-Banapà, justo detràs del Hotel Banapà.</p>
+                    <p>Si quieres localizarnos con emergencia, tambièn puedes llamar a los diáconos del Tabernàculo y con gusto le atenderàn.</p> <br>
+                    <div class="llamar">
+                        <a href="tel: +240 222 509 065" title="Contàctate con un diàcono"><img src="https://img.icons8.com/ios-glyphs/30/FFFFFF/ringer-volume.png" alt="ringer-volume"/>Llàmanos</a>
+                        <a href="tel: +240 222 168 792" title="Contàctate con un diàcono"><img src="https://img.icons8.com/ios-glyphs/30/FFFFFF/ringer-volume.png" alt="ringer-volume"/>Llàmanos</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mapa-localizacion">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d550.2878997082034!2d8.771320179340835!3d3.7307663461480587!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10669f9a0c5116db%3A0xe9f9a4d049f4c605!2zVGFiZXJuw6FjdWxvIEVsb2jDrW0!5e1!3m2!1ses!2s!4v1706903902295!5m2!1ses!2s"  height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+
+    </footer>
+
+    <script src="./js/fecha.js"></script>
+    <script src="./js/footer.js"></script>
+</body>
+</html>
