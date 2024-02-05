@@ -9,7 +9,7 @@ body {
     width: 100vw;
 }
 .container-diezmos {
-    background-image: url(/img/diezmos2.jpg);
+    background-image: url(../img/diezmos2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
