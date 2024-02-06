@@ -1,25 +1,12 @@
 
-.text-portada{
-    display: block;
-    justify-content: center;
-}
-.text-portada p {
-    color: var(--blanco);
-    font-size: 18px;
-}
-.logo {
-    width: 10%;
-    height: 10%;
-    object-fit: contain;
-    margin: 10px;
-}
+
 .container_service {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-content: center;
     align-items: center;
     background: var(--grisSuave);
-    color: var(--gris);
+    color: var(--grisSuave);
     padding: 3px;
 }
 .service {
@@ -40,9 +27,7 @@
     border-radius: 5px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.481);
 }
-.service p {
-    color: var(--gris);
-}
+
 .container-noticias {
     background: var(--blanco);
     padding: 20px;
@@ -63,11 +48,13 @@
     border: .8px solid var(--grisSuave);
     padding: 5px;
 }
-
 .noticias img {
     width: 100%;
     height: 150px;
     object-fit: cover;
+}
+.noticias a h3 {
+    color: var(--negro);
 }
 .button1 {
     color: #2961da;
@@ -79,11 +66,12 @@
     width: 150px;
 }
 .button1 img {
-    width: 24px;
+    width: 20px;
     height: 24px;
+    object-fit: contain;
     position: absolute;
-    left: 5px;
-    top: 3px;
+    left: 3px;
+    top: 2px;
 }
 .noticias a:hover {
     box-shadow: none;
@@ -114,8 +102,8 @@
 .button {
     display: inline-block;
     text-align: center;
-    background: var(--gris);
-    color: var(--blanco);
+    background: var(--grisSuave);
+    color: var(--colorLlamar);
     padding: 1em 1.1em 1em;
     line-height: 1;
     border-radius: 1em;
@@ -133,7 +121,7 @@
     position: absolute;
     content: "";
     display: inline-block;
-    background: var(--gris);
+    background: var(--grisSuave);
     border-radius: 50%;
     transition: transform .5s ease;
     transform: scale(0);
@@ -152,7 +140,7 @@
     transform: none;
 }
 .button:hover {
-    color: var(--grisSuave);
+    color: var(--gris);
 }
 .container-links {
     display: block;
@@ -176,7 +164,7 @@
     background: rgba(0, 0, 0, 0.705);
 }
 .links a:hover {
-    transform: scale(.97);
+    transform: scale(.99);
     color: var(--negro);
 }
 .links a:hover img {
@@ -210,26 +198,26 @@
     height: 100%;
 }
 .contenido-text-localizacion h2 {
-    color: #280c0ffe;
+    color:var(--negro);
 }
 .contenido-text-localizacion {
     display: grid;
     justify-content: center;
     padding: 20px 8px;
-    color: #280c0ffe;
-    background: #f8efef6c;
+    color: var(--negro);
+    background: #f8efefac;
 }
 .text-localizacion a {
-    color: var(--blanco);
+    color: var(--colorLlamar);
     text-align: center;
-    font-weight: bold;
+    
     width: 110px;
     height: 30px;
     position: relative;
     padding-top: 4px;
     border-radius: 2px;
     text-align: center;
-    background: var(--colorLlamar);
+    background: var(--grisSuave);
 }
 .text-localizacion a:hover {
     transform: scale(1.1);

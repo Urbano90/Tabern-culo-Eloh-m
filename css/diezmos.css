@@ -1,9 +1,10 @@
-
 :root {
     --blanco: #fff;
     --gris: #6c6565;
+    --grisSuave: #cecece;
     --negro: #060608;
     --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+    --colorLlamar: #2961da;
 }
 body {
     width: 100vw;
@@ -19,9 +20,8 @@ body {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: var(--blanco);
-    font-size: 30px;
+    font-size: 28px;
     text-shadow:  1px 2px 1px var(--gris);
-
 }
 .container-form {
     display: flex;
@@ -34,18 +34,23 @@ body {
     justify-content: center;
     align-items: center;
     width: 340px;
-    height: 215px;
-    background: #02020292;
-    color: #fff;
-    padding: 10px;
+    background: #020202ae;
+    padding: 8px;
     text-align: center;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.481);
+    border: 2px solid var(--gris);
+}
+label {
+    color: var(--grisSuave);
+    font-weight: bold;
 }
 .inputPrice {
-    padding: 6px;
+    padding: 6px 3px;
     background: var(--blanco);
     color: var(--negro);
-    border: none;
+    border: 1px solid var(--gris);
+    margin: 5px 0;
+    width: 100px;
 }
 .bottonCalcular {
     cursor: pointer;
@@ -55,6 +60,7 @@ body {
     border-radius: 3px;
     margin: 0px 10px;
     border: none;
+    margin: 5px;
 }
 .bottonCalcular:hover {
     transform: scale(1.1);
@@ -67,17 +73,21 @@ body {
     padding: 7px;
     border-radius: 3px;
     border: none;
+    margin: 5px;
 }
 .inputReset:hover {
     transform: scale(1.1);
     color: var(--gris);
 }
 .ResultPrice {
-    color: var(--negro);
-    background: var(--blanco);
+    color: var(--blanco);
+    background: var(--gris);
     height: 100px;
     text-align: center;
-    background: var(--blanco);
+    padding: 5px;
+    margin: 5px 0;
+    width: 100%;
+    border: 1px solid var(--grisSuave);
 }
 .container-Subtitle {
     display: grid;
