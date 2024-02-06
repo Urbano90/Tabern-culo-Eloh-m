@@ -18,10 +18,18 @@
 </svg>
     <title>Tabernàculo Elohím</title>
 </head>
-<body>
-    <nav>
+<body class="body">
+    <nav class="nav">
         <section class="container-menu">
            <div class="img-portada">
+            <div class="menu" id="menu">
+                <div class="contenedor  contenedor-botones-menu">
+                <!-- Los dos botones deben contener los iconos de menu y cerrar menu-->
+                <button id="btn-menu-barras" class="btn-menu-barras"> <img src="https://img.icons8.com/material-outlined/24/FFFFFF/menu--v1.png" alt="menu--v1"/> </button>
+                <button id="btn-menu-cerrar"  class="btn-menu-cerrar"> <img src="https://img.icons8.com/ios/50/FFFFFF/close-window--v1.png" alt="close-window--v1"/></button>
+                </div>
+            </div>
+            <img class="logo" src="./img/logo-blanco1.png" alt="img-logo"> 
             <section class="container-navbar">
                 <div class="enlaces">
                     <a href="./index.html"> <span>Inicio</span></a>
@@ -30,26 +38,18 @@
                     <a href="./galería.html"> <span>Galería</span></a>
                     <a href="./diezmos.html"> <span>Diezmos</span></a>
                 </div>
-            </section>
-            <div class="menu" id="menu">
-                <div class="contenedor  contenedor-botones-menu">
-                <!-- Los dos botones deben contener los iconos de menu y cerrar menu-->
-                <button id="btn-menu-barras" class="btn-menu-barras"> <img src="https://img.icons8.com/material-outlined/24/FFFFFF/menu--v1.png" alt="menu--v1"/> </button>
-                <button id="btn-menu-cerrar"  class="btn-menu-cerrar"> <img src="https://img.icons8.com/ios/50/FFFFFF/close-window--v1.png" alt="close-window--v1"/></button>
-                </div>
-            </div>
-            <img class="logo" src="./img/logo-blanco1.png" alt="img-logo">       
+            </section>      
             </div>
             <div class="verso">
+                <span>Apocalipsis 10:7</span>
                 <p>
-                Sino que en los dias de la voz del séptimo ángel, cuando él comience a tocar la trompeta, 
+                7. Sino que en los dias de la voz del séptimo ángel, cuando él comience a tocar la trompeta, 
                 el misterio de Dios se consumará como Él lo enunció a sus siervos los profetas.
                 </p>
-                <span>Apocalipsis 10:7</span>
             </div>
         </section>
     </nav>
-    <main>
+    <main class="main">
         <section class="container_service">
             <article class="service">
                 <img src="./img/play.jpg" alt="">
@@ -138,5 +138,6 @@
 
     <script src="./js/fecha.js"></script>
     <script src="./js/footer.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>

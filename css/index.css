@@ -208,16 +208,15 @@
     background: #f8efefac;
 }
 .text-localizacion a {
-    color: var(--colorLlamar);
+    color: var(--blanco);
     text-align: center;
-    
-    width: 110px;
+    width: 130px;
     height: 30px;
     position: relative;
     padding-top: 4px;
     border-radius: 2px;
     text-align: center;
-    background: var(--grisSuave);
+    background: var(--colorLlamar);
 }
 .text-localizacion a:hover {
     transform: scale(1.1);
@@ -227,8 +226,8 @@
     rotate: 360deg;
 }
 .text-localizacion a img {
-    width: 16px;
-    height: 16px;
+    width: 18px;
+    height: 18px;
     object-fit: contain;
     position: absolute;
     left: 4px;

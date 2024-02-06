@@ -169,8 +169,27 @@ footer {
         position: relative;
         right: 10px;
     }  
+    .btn-btn-menu-cerrar {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 10px;
+        z-index: 1000;
+    }  
     .enlaces {
         display: none;
+        justify-content: start;
+        background: var(--gris);
+        text-align: start;
+        width: 150px;
+        margin: 0;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+    }
+    .enlace:hover {
+        border-bottom: 1px solid var(--grisSuave);
     }
     .text-localizacion {
         width: 100%;
