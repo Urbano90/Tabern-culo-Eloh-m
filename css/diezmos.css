@@ -33,7 +33,7 @@ body {
     display: grid;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 320px;
     height: 215px;
     background: #02020292;
     color: #fff;
@@ -42,20 +42,19 @@ body {
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.481);
 }
 .inputPrice {
-    padding: 4px;
-    border-radius: 3px;
+    padding: 8px;
     background: var(--blanco);
     color: var(--negro);
     border: none;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.481);
 }
 .bottonCalcular {
     cursor: pointer;
     background: #1fd828;
     color: var(--blanco);
-    padding: 4px;
-    border-radius: 6px;
+    padding: 7px;
+    border-radius: 3px;
     margin: 0px 10px;
+    border: none;
 }
 .bottonCalcular:hover {
     transform: scale(1.1);
@@ -65,8 +64,9 @@ body {
     cursor: pointer;
     background: #d81f1f;
     color: var(--blanco);
-    padding: 4px;
-    border-radius: 6px;
+    padding: 7px;
+    border-radius: 3px;
+    border: none;
 }
 .inputReset:hover {
     transform: scale(1.1);
