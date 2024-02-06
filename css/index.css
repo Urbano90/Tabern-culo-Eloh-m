@@ -61,6 +61,7 @@
     background: var(--blanco);
     margin: 5px;
     border: .8px solid var(--grisSuave);
+    padding: 5px;
 }
 
 .noticias img {

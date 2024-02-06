@@ -33,16 +33,16 @@ body {
     display: grid;
     justify-content: center;
     align-items: center;
-    width: 320px;
+    width: 340px;
     height: 215px;
     background: #02020292;
     color: #fff;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.481);
 }
 .inputPrice {
-    padding: 8px;
+    padding: 6px;
     background: var(--blanco);
     color: var(--negro);
     border: none;
