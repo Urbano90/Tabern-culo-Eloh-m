@@ -174,7 +174,7 @@ footer {
      .contenedor-botones-menu {
         display: flex;
         justify-content: space-around;
-        width: 150px;
+        height: 30px;
      }
     .btn-menu-barras {
         display: flex;
@@ -201,13 +201,17 @@ footer {
         justify-content: start;
         background: var(--colorLlamar);
         text-align: start;
-        width: 50vw;
+        width: 70vw;
         position: absolute;
         right: -100%;
         padding-top: 70px;
-        top: 0px;
+        top: -10px;
         z-index: 1;
-        padding-bottom: 15px;
+        padding-bottom: 20px;
+    }
+    .enlace {
+        border-bottom: 2px solid var(--blanco);
+        margin: 0px 10px;
     }
     .enlace:hover {
         border-bottom: 1px solid var(--grisSuave);

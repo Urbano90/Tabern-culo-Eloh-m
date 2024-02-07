@@ -8,26 +8,36 @@ const menu = document.querySelector(".menu");
 const contenedorMenu = document.querySelector(".contenedor-botones-menu")
 const btnMenu = document.querySelector(".btn-menu-barras");
 const btnCerrar = document.querySelector(".btn-menu-cerrar");
+const  esDispositivoMovil = () => window.innerWidth <= 780;   /* cuando es un dispositivo movil y la pantalla es menor a 800px */
+
 
 
 btnMenu.addEventListener("click", () => {
-    enlaces.style.display='grid';
-    btnMenu.style.display='none';
-    btnCerrar.style.display='block';
-    enlaces.style.right="0";
-    enlaces.style.transition= "5s ease all";
-    body.style.overflow='hidden';
+    if(esDispositivoMovil()) {
+        enlaces.style.display='grid';
+        btnMenu.style.display='none';
+        btnCerrar.style.display='block';
+        enlaces.style.right="0";
+        enlaces.style.transition= "5s ease all";
+        body.style.overflow='hidden';
+    }
 });
+
 btnCerrar.addEventListener("click", () => {
-    enlaces.style.display='none';
-    btnMenu.style.display='block';
-    btnCerrar.style.display='none';
-    body.style.overflow= 'visible';
+    if(esDispositivoMovil())  {
+        enlaces.style.display='none';
+        btnMenu.style.display='block';
+        btnCerrar.style.display='none';
+        body.style.overflow= 'visible';
+    }
 });
+
 main.addEventListener("click", () => {
-    enlaces.style.display='none';
-    btnMenu.style.display='block';
-    btnCerrar.style.display='none';
-    body.style.overflow= 'visible';
+    if(esDispositivoMovil()) {
+        enlaces.style.display='none';
+        btnMenu.style.display='block';
+        btnCerrar.style.display='none';
+        body.style.overflow= 'visible';
+    }
 });
 

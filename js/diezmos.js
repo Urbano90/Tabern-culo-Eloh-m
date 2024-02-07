@@ -28,8 +28,9 @@ function calcularPrecioConDescuento (precio, descuento) {
   
   const precioConDescuento =  calcularPrecioConDescuento(priceValue, inputDiscount);   // Aquí llamamos la function de la operación arriba realizada
   const ResultPrice = document.getElementById("ResultPrice");   // interactuamos con el espacio que hemos creado en html para sacar el resultado
+  ResultPrice.classList.add('active');
   ResultPrice.innerText = `Tienes que pagar:   ${precioConDescuento } Francos CFA. 
-   
+  
  Que Dios te bendiga`;
 
   }

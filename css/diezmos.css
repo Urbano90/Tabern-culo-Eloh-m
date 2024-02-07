@@ -50,7 +50,8 @@ label {
     color: var(--negro);
     border: 1px solid var(--gris);
     margin: 5px 0;
-    width: 100px;
+    width: 120px;
+    font-size: 17px;
 }
 .bottonCalcular {
     cursor: pointer;
@@ -88,6 +89,18 @@ label {
     margin: 5px 0;
     width: 100%;
     border: 1px solid var(--grisSuave);
+}
+.ResultPrice .active {
+    color: var(--blanco);
+    background: var(--colorLlamar);
+    height: 100px;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    width: 100%;
+    border: 1px solid var(--grisSuave);
+    position: relative;
+    top: -5px;
 }
 .container-Subtitle {
     display: grid;
