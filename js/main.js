@@ -1,5 +1,5 @@
-
-const body =document.querySelector(".body");
+const body = document.querySelector(".body");
+const main =document.querySelector(".main");
 const containerMenu = document.querySelector(".container-menu");
 const enlaces = document.querySelector(".enlaces");
 const containerNavbar = document.querySelector(".container-navbar");
@@ -12,14 +12,22 @@ const btnCerrar = document.querySelector(".btn-menu-cerrar");
 
 btnMenu.addEventListener("click", () => {
     enlaces.style.display='grid';
-    btnMenu.style.display='none'
-    btnCerrar.style.diplay='block'
-    body.style.overflow="hidden"
-
+    btnMenu.style.display='none';
+    btnCerrar.style.display='block';
+    enlaces.style.right="0";
+    enlaces.style.transition= "5s ease all";
+    body.style.overflow='hidden';
 });
 btnCerrar.addEventListener("click", () => {
     enlaces.style.display='none';
-    btnMenu.style.display='block'
-    btnCerrar.style.diplay='none'
-    body.style.display='visible'
+    btnMenu.style.display='block';
+    btnCerrar.style.display='none';
+    body.style.overflow= 'visible';
 });
+main.addEventListener("click", () => {
+    enlaces.style.display='none';
+    btnMenu.style.display='block';
+    btnCerrar.style.display='none';
+    body.style.overflow= 'visible';
+});
+
