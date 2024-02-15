@@ -11,7 +11,6 @@ const btnCerrar = document.querySelector(".btn-menu-cerrar");
 const  esDispositivoMovil = () => window.innerWidth <= 780;   /* cuando es un dispositivo movil y la pantalla es menor a 800px */
 
 
-
 btnMenu.addEventListener("click", () => {
     if(esDispositivoMovil()) {
         enlaces.style.display='grid';
@@ -40,4 +39,3 @@ main.addEventListener("click", () => {
         body.style.overflow= 'visible';
     }
 });
-
