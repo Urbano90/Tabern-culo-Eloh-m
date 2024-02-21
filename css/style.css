@@ -43,7 +43,7 @@ u {
     right: 20px;
 }
 .enlaces a {
-    color:  var(--blanco);
+    color:  var(--colorLlamar);
     cursor: pointer;
     font-size: 16px;
 }
@@ -53,7 +53,7 @@ u {
 }
 .container-menu {
     color: var(--blanco);
-    background-image: url(../img/fondo-tabel4.jpg);
+    background-image: url(../img/fondo-frente1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -183,6 +183,7 @@ footer {
         right: 8px;
         top: 8px;
         z-index: 1000;
+        background: var(--negro);
     }  
     .btn-menu-cerrar {
         display: none;
@@ -207,6 +208,11 @@ footer {
         top: -10px;
         z-index: 1;
         padding-bottom: 20px;
+    }
+    .enlaces a {
+        color:  var(--blanco);
+        cursor: pointer;
+        font-size: 16px;
     }
     .enlace {
         border-bottom: 2px solid var(--blanco);
