@@ -53,12 +53,12 @@ u {
 }
 .container-menu {
     color: var(--blanco);
-    background-image: url(../img/d3ca5794-0e31-412c-83a1-379186434aa7.jpg);
-    background-repeat: repeat;
+    background-image: url(../img/fondo-tabel4.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 400px;
+    height: 450px;
     position: relative;
 }
 .btn-menu-barras {
@@ -214,6 +214,16 @@ footer {
     }
     .enlace:hover {
         border-bottom: 1px solid var(--grisSuave);
+    }
+    .container-menu {
+        color: var(--blanco);
+        background-image: url(../img/fondo-tabel4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 300px;
+        position: relative;
     }
     .text-localizacion {
         width: 100%;
