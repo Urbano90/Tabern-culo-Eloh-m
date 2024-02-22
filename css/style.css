@@ -43,7 +43,7 @@ u {
     right: 20px;
 }
 .enlaces a {
-    color:  var(--colorLlamar);
+    color:  #351201;
     cursor: pointer;
     font-size: 16px;
 }
@@ -53,7 +53,7 @@ u {
 }
 .container-menu {
     color: var(--blanco);
-    background-image: url(../img/fondo-frente1.jpg);
+    background-image: url(../img/fondo-frente.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -65,12 +65,12 @@ u {
     display: none;
     justify-content: center;
     align-items: center;
-    margin: 10px;
-    height: 50px;
-    width: 50px;
+    margin: 8px;
+    height: 40px;
+    width: 40px;
     object-fit: contain;
     background: transparent;
-    border: 2px solid var(--blanco);
+    border: 1px solid var(--gris);
     border-radius: 5px;
 }
 .btn-menu-cerrar  {
@@ -79,7 +79,6 @@ u {
     height: 10px;
     width: 10px;
     object-fit: contain;
-
 }
 .text-portada{
     display: block;
@@ -95,17 +94,7 @@ u {
     object-fit: contain;
     margin: 10px;
 }
-.verso {
-    display: grid;
-    width: 320px;
-    font-style: oblique;
-    background: #06060862;
-    position: absolute;
-    right:2%;
-    top: 68%;
-    padding: 6px;
 
-}
 footer {
     display: block;
     justify-content: center;
@@ -173,7 +162,7 @@ footer {
      .contenedor-botones-menu {
         display: flex;
         justify-content: space-around;
-        height: 30px;
+        height: 48px;
      }
     .btn-menu-barras {
         display: flex;
@@ -181,25 +170,23 @@ footer {
         align-items: center;
         position: absolute;
         right: 8px;
-        top: 8px;
         z-index: 1000;
-        background: var(--negro);
+        background: #351201e3;
     }  
     .btn-menu-cerrar {
         display: none;
         justify-content: center;
         align-items: center;
         position: absolute;
-        right: 38px;
-        top: 2px;
+        right: 40px;
         z-index: 1;
-        background: var(--colorLlamar);
+        background: #351201e3;
         border: none;
     }  
     .enlaces {
         display: none;
         justify-content: start;
-        background: var(--colorLlamar);
+        background: #351201e3;
         text-align: start;
         width: 70vw;
         position: absolute;
