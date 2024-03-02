@@ -55,7 +55,7 @@
     object-fit: cover;
 }
 .noticias a h3 {
-    color: var(--negro);
+    color: var(--colorLlamar);
 }
 .button1 {
     color: #2961da;

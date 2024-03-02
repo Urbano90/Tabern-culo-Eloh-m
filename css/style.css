@@ -13,6 +13,7 @@
     --negro: #060608;
     --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
     --colorLlamar: #2961da;
+    --colorMarron: #351201;
 }
 body {
     width: 100vw;
@@ -43,7 +44,7 @@ u {
     right: 20px;
 }
 .enlaces a {
-    color:  #351201;
+    color:  var(--colorMarron);
     cursor: pointer;
     font-size: 16px;
 }
@@ -60,6 +61,8 @@ u {
     width: 100%;
     height: 450px;
     position: relative;
+    display: grid;
+    align-items: end;
 }
 .btn-menu-barras {
     display: none;
